@@ -1,0 +1,4 @@
+<permissions>
+    <library name="security_device_credential_sdk.jar" file="/system/framework/security-device-credential-sdk.jar" />
+    <library name="cloud_common.jar" file="/system/framework/cloud-common-runtime.jar" />
+</permissions>
