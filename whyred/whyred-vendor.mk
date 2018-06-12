@@ -1180,25 +1180,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_dw9716.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_dw9761b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761b.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_dw9763b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763b.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_dw9790a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9790a.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9800.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898122.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd_qc2002.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_whyred_imx486_ofilm_global_i_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_whyred_imx486_ofilm_global_i_dw9714v.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_whyred_imx486_qtech_global_ii_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_whyred_imx486_qtech_global_ii_dw9714v.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_whyred_s5k2l7_ofilm_cn_i_ak7374.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_whyred_s5k2l7_ofilm_cn_i_ak7374.so \
