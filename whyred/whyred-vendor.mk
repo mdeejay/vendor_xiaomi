@@ -57,9 +57,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libadvanced_crypto.so:system/lib/libadvanced_crypto.so \
     vendor/xiaomi/whyred/proprietary/lib/libadvanced_crypto_jni.so:system/lib/libadvanced_crypto_jni.so \
     vendor/xiaomi/whyred/proprietary/lib/libantradio.so:system/lib/libantradio.so \
-    vendor/xiaomi/whyred/proprietary/lib/libavenhancements.so:system/lib/libavenhancements.so \
     vendor/xiaomi/whyred/proprietary/lib/libblurbuster.so:system/lib/libblurbuster.so \
     vendor/xiaomi/whyred/proprietary/lib/libbt-logClient.so:system/lib/libbt-logClient.so \
+    vendor/xiaomi/whyred/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    vendor/xiaomi/whyred/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/xiaomi/whyred/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/xiaomi/whyred/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/xiaomi/whyred/proprietary/lib/libcdsprpc.so:system/lib/libcdsprpc.so \
     vendor/xiaomi/whyred/proprietary/lib/libcert_parse.so:system/lib/libcert_parse.so \
     vendor/xiaomi/whyred/proprietary/lib/libchromaflash.so:system/lib/libchromaflash.so \
@@ -300,7 +303,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libwigig_utils.so:system/lib64/libwigig_utils.so \
     vendor/xiaomi/whyred/proprietary/lib64/libwrapnexpcmcalbody.so:system/lib64/libwrapnexpcmcalbody.so \
     vendor/xiaomi/whyred/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
-    vendor/xiaomi/whyred/proprietary/vendor/Diag.cfg:$(TARGET_COPY_OUT_VENDOR)/Diag.cfg \
     vendor/xiaomi/whyred/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/PktRspTest:$(TARGET_COPY_OUT_VENDOR)/bin/PktRspTest \
     vendor/xiaomi/whyred/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
@@ -341,39 +343,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_General_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Global_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_General_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Global_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Handset_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Hdmi_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Headset_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Speaker_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_workspaceFile.qwsp \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Bluetooth_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_General_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Global_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Handset_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Hdmi_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Headset_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_Speaker_cal.acdb \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-tasha-skus-snd-card/QRD_SKUS_workspaceFile.qwsp \
     vendor/xiaomi/whyred/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/whyred/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/xiaomi/whyred/proprietary/vendor/etc/appboosts.xml:$(TARGET_COPY_OUT_VENDOR)/etc/appboosts.xml \
@@ -696,11 +665,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/whyred/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/xiaomi/whyred/proprietary/lib/android.frameworks.displayservice@1.0.so:system/lib/android.frameworks.displayservice@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/xiaomi/whyred/proprietary/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
-    vendor/xiaomi/whyred/proprietary/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
     vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -716,26 +680,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/whyred/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
     vendor/xiaomi/whyred/proprietary/lib/libQTEEConnector_system.so:system/lib/libQTEEConnector_system.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaaudio.so:system/lib/libaaudio.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaaudioservice.so:system/lib/libaaudioservice.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudioclient.so:system/lib/libaudioclient.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiohal.so:system/lib/libaudiohal.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiomanager.so:system/lib/libaudiomanager.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudioprocessing.so:system/lib/libaudioprocessing.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiospdif.so:system/lib/libaudiospdif.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/xiaomi/whyred/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/xiaomi/whyred/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
     vendor/xiaomi/whyred/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
@@ -802,12 +746,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/android.frameworks.displayservice@1.0.so:system/lib64/android.frameworks.displayservice@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:system/lib64/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/xiaomi/whyred/proprietary/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
-    vendor/xiaomi/whyred/proprietary/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
     vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
@@ -825,20 +763,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/xiaomi/whyred/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
     vendor/xiaomi/whyred/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudioclient.so:system/lib64/libaudioclient.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudioeffect_jni.so:system/lib64/libaudioeffect_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudioflinger.so:system/lib64/libaudioflinger.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiohal.so:system/lib64/libaudiohal.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiomanager.so:system/lib64/libaudiomanager.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiopolicyenginedefault.so:system/lib64/libaudiopolicyenginedefault.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiopolicymanagerdefault.so:system/lib64/libaudiopolicymanagerdefault.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiopolicyservice.so:system/lib64/libaudiopolicyservice.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudioprocessing.so:system/lib64/libaudioprocessing.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiospdif.so:system/lib64/libaudiospdif.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudioutils.so:system/lib64/libaudioutils.so \
     vendor/xiaomi/whyred/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/whyred/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/xiaomi/whyred/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
@@ -898,7 +822,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.camera.device@1.0.so:system/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so:system/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so:system/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so \
@@ -917,7 +840,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/xiaomi/whyred/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/xiaomi/whyred/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/xiaomi/whyred/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hbtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hbtp_daemon \
@@ -1844,8 +1766,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0_vendor.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0_vendor.so \
@@ -1877,8 +1799,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
@@ -1902,7 +1822,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.sdm660.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/hw/android.hardware.ir@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.ir@1.0-impl.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
@@ -2037,16 +1956,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_lib.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libmmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmi.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
@@ -2137,7 +2046,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
