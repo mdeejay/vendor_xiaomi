@@ -53,8 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libSeemplog.so:system/lib/libSeemplog.so \
     vendor/xiaomi/whyred/proprietary/lib/libSonyIMX376C3RmscLibrary.so:system/lib/libSonyIMX376C3RmscLibrary.so \
     vendor/xiaomi/whyred/proprietary/lib/libSonyIMX376KRmscLibrary.so:system/lib/libSonyIMX376KRmscLibrary.so \
-    vendor/xiaomi/whyred/proprietary/lib/libWnnEngDic.so:system/lib/libWnnEngDic.so \
-    vendor/xiaomi/whyred/proprietary/lib/libWnnJpnDic.so:system/lib/libWnnJpnDic.so \
     vendor/xiaomi/whyred/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/xiaomi/whyred/proprietary/lib/libadvanced_crypto.so:system/lib/libadvanced_crypto.so \
     vendor/xiaomi/whyred/proprietary/lib/libadvanced_crypto_jni.so:system/lib/libadvanced_crypto_jni.so \
@@ -159,7 +157,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libwigig_flashaccess.so:system/lib/libwigig_flashaccess.so \
     vendor/xiaomi/whyred/proprietary/lib/libwigig_pciaccess.so:system/lib/libwigig_pciaccess.so \
     vendor/xiaomi/whyred/proprietary/lib/libwigig_utils.so:system/lib/libwigig_utils.so \
-    vendor/xiaomi/whyred/proprietary/lib/libwnndict.so:system/lib/libwnndict.so \
     vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
@@ -184,8 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libSecureExtAuthJNI.so:system/lib64/libSecureExtAuthJNI.so \
     vendor/xiaomi/whyred/proprietary/lib64/libSecureSampleAuthJNI.so:system/lib64/libSecureSampleAuthJNI.so \
     vendor/xiaomi/whyred/proprietary/lib64/libSeemplog.so:system/lib64/libSeemplog.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libWnnEngDic.so:system/lib64/libWnnEngDic.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libWnnJpnDic.so:system/lib64/libWnnJpnDic.so \
     vendor/xiaomi/whyred/proprietary/lib64/libadsprpc.so:system/lib64/libadsprpc.so \
     vendor/xiaomi/whyred/proprietary/lib64/libadvanced_crypto.so:system/lib64/libadvanced_crypto.so \
     vendor/xiaomi/whyred/proprietary/lib64/libadvanced_crypto_jni.so:system/lib64/libadvanced_crypto_jni.so \
@@ -303,7 +298,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libwigig_flashaccess.so:system/lib64/libwigig_flashaccess.so \
     vendor/xiaomi/whyred/proprietary/lib64/libwigig_pciaccess.so:system/lib64/libwigig_pciaccess.so \
     vendor/xiaomi/whyred/proprietary/lib64/libwigig_utils.so:system/lib64/libwigig_utils.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libwnndict.so:system/lib64/libwnndict.so \
     vendor/xiaomi/whyred/proprietary/lib64/libwrapnexpcmcalbody.so:system/lib64/libwrapnexpcmcalbody.so \
     vendor/xiaomi/whyred/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
     vendor/xiaomi/whyred/proprietary/vendor/Diag.cfg:$(TARGET_COPY_OUT_VENDOR)/Diag.cfg \
@@ -714,8 +708,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.imscmservice@1.1.so:system/lib/com.qualcomm.qti.imscmservice@1.1.so \
     vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/xiaomi/whyred/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/xiaomi/whyred/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/xiaomi/whyred/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/xiaomi/whyred/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
@@ -824,8 +816,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.imscmservice@1.1.so:system/lib64/com.qualcomm.qti.imscmservice@1.1.so \
     vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
-    vendor/xiaomi/whyred/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/xiaomi/whyred/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/whyred/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/whyred/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \

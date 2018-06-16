@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
      Netmgr Module configuration XML file
      Copyright (c) 2013, 2016-2017 Qualcomm Technologies, Inc.
@@ -6,6 +5,7 @@
      Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
 
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- QMI configuration -->
 <list name="netmgr_config">
