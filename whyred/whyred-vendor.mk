@@ -579,7 +579,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/xiaomi/whyred/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/whyred/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/xiaomi/whyred/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/whyred/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/whyred/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:system/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/xiaomi/whyred/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
