@@ -78,22 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libhttpserver.so:system/lib/libhttpserver.so \
     vendor/xiaomi/whyred/proprietary/lib/libimagepipeline.so:system/lib/libimagepipeline.so \
     vendor/xiaomi/whyred/proprietary/lib/libj2v8.so:system/lib/libj2v8.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_blurbuster.so:system/lib/libjni_blurbuster.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_chromaflash.so:system/lib/libjni_chromaflash.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_filtergenerator.so:system/lib/libjni_filtergenerator.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_hazebuster.so:system/lib/libjni_hazebuster.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_load_serinum.so:system/lib/libjni_load_serinum.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_makeupV2.so:system/lib/libjni_makeupV2.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_optizoom.so:system/lib/libjni_optizoom.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_panorama.so:system/lib/libjni_panorama.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_resource_drm.so:system/lib/libjni_resource_drm.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_seestraight.so:system/lib/libjni_seestraight.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_sharpshooter.so:system/lib/libjni_sharpshooter.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_stillmore.so:system/lib/libjni_stillmore.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_trackingfocus.so:system/lib/libjni_trackingfocus.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_truescanner_v2.so:system/lib/libjni_truescanner_v2.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
     vendor/xiaomi/whyred/proprietary/lib/liblistenjni.so:system/lib/liblistenjni.so \
     vendor/xiaomi/whyred/proprietary/lib/liblistensoundmodel2.so:system/lib/liblistensoundmodel2.so \
     vendor/xiaomi/whyred/proprietary/lib/liblogwrap.so:system/lib/liblogwrap.so \
@@ -193,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
+    vendor/xiaomi/whyred/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_hazebuster.so:system/lib64/libjni_hazebuster.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_load_serinum.so:system/lib64/libjni_load_serinum.so \
@@ -621,7 +606,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libhbtpjni.so:system/lib/libhbtpjni.so \
     vendor/xiaomi/whyred/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/whyred/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
     vendor/xiaomi/whyred/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
     vendor/xiaomi/whyred/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/xiaomi/whyred/proprietary/lib/libmmcamera_faceproc2.so:system/lib/libmmcamera_faceproc2.so \
@@ -705,7 +689,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libhbtpjni.so:system/lib64/libhbtpjni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
     vendor/xiaomi/whyred/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmmcamera_faceproc.so:system/lib64/libmmcamera_faceproc.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmmcamera_faceproc2.so:system/lib64/libmmcamera_faceproc2.so \
