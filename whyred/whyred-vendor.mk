@@ -588,6 +588,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/whyred/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/xiaomi/whyred/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    vendor/xiaomi/whyred/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/whyred/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/whyred/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/whyred/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
@@ -2020,9 +2021,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     WfdService \
     datastatusnotification \
-    embms \
     ims \
-    imssettings \
     uceShimService \
     CNEService \
     com.qualcomm.location \
@@ -2039,7 +2038,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice@1.0-java \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
-    embmslibrary \
     qcrilhook \
     vendor.qti.hardware.fingerprint-V1.0-java \
     com.fingerprints.extension \
