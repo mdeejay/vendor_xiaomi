@@ -2038,7 +2038,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice@1.0-java \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
-    qcrilhook \
     vendor.qti.hardware.fingerprint-V1.0-java \
     com.fingerprints.extension \
     qti-vzw-ims-internal \
