@@ -197,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libmediaplayerservice.so:system/lib64/libmediaplayerservice.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmegbucket.so:system/lib64/libmegbucket.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmp3lame.so:system/lib64/libmp3lame.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmtk_serialnum.so:system/lib64/libmtk_serialnum.so \
     vendor/xiaomi/whyred/proprietary/lib64/libnexcralbody_mc_jb.so:system/lib64/libnexcralbody_mc_jb.so \
     vendor/xiaomi/whyred/proprietary/lib64/libnexeditorsdk.so:system/lib64/libnexeditorsdk.so \
     vendor/xiaomi/whyred/proprietary/lib64/libnexralbody_audio.so:system/lib64/libnexralbody_audio.so \
