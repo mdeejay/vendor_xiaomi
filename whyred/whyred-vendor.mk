@@ -138,8 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/xiaomi/whyred/proprietary/lib64/libFidoCryptoJNI.so:system/lib64/libFidoCryptoJNI.so \
     vendor/xiaomi/whyred/proprietary/lib64/libFidoCrypto_system.so:system/lib64/libFidoCrypto_system.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libMegviiUnlock-jni-1.2.so:system/lib64/libMegviiUnlock-jni-1.2.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libMegviiUnlock.so:system/lib64/libMegviiUnlock.so \
     vendor/xiaomi/whyred/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/xiaomi/whyred/proprietary/lib64/libOpenCL_system.so:system/lib64/libOpenCL_system.so \
     vendor/xiaomi/whyred/proprietary/lib64/libQseeR2fServiceJNI.so:system/lib64/libQseeR2fServiceJNI.so \
