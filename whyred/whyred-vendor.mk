@@ -54,12 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libadvanced_crypto.so:system/lib/libadvanced_crypto.so \
     vendor/xiaomi/whyred/proprietary/lib/libadvanced_crypto_jni.so:system/lib/libadvanced_crypto_jni.so \
     vendor/xiaomi/whyred/proprietary/lib/libantradio.so:system/lib/libantradio.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudioclient.so:system/lib/libaudioclient.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
-    vendor/xiaomi/whyred/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
     vendor/xiaomi/whyred/proprietary/lib/libblurbuster.so:system/lib/libblurbuster.so \
     vendor/xiaomi/whyred/proprietary/lib/libbt-logClient.so:system/lib/libbt-logClient.so \
     vendor/xiaomi/whyred/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
@@ -156,12 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libadsprpc.so:system/lib64/libadsprpc.so \
     vendor/xiaomi/whyred/proprietary/lib64/libadvanced_crypto.so:system/lib64/libadvanced_crypto.so \
     vendor/xiaomi/whyred/proprietary/lib64/libadvanced_crypto_jni.so:system/lib64/libadvanced_crypto_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudioclient.so:system/lib64/libaudioclient.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudioflinger.so:system/lib64/libaudioflinger.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiopolicyenginedefault.so:system/lib64/libaudiopolicyenginedefault.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiopolicymanagerdefault.so:system/lib64/libaudiopolicymanagerdefault.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libaudiopolicyservice.so:system/lib64/libaudiopolicyservice.so \
     vendor/xiaomi/whyred/proprietary/lib64/libblurbuster.so:system/lib64/libblurbuster.so \
     vendor/xiaomi/whyred/proprietary/lib64/libbt-logClient.so:system/lib64/libbt-logClient.so \
     vendor/xiaomi/whyred/proprietary/lib64/libcdsprpc.so:system/lib64/libcdsprpc.so \
