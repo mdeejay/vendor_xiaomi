@@ -50,10 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libantradio.so:system/lib/libantradio.so \
     vendor/xiaomi/whyred/proprietary/lib/libblurbuster.so:system/lib/libblurbuster.so \
     vendor/xiaomi/whyred/proprietary/lib/libbt-logClient.so:system/lib/libbt-logClient.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/xiaomi/whyred/proprietary/lib/libcdsprpc.so:system/lib/libcdsprpc.so \
     vendor/xiaomi/whyred/proprietary/lib/libcert_parse.so:system/lib/libcert_parse.so \
     vendor/xiaomi/whyred/proprietary/lib/libchromaflash.so:system/lib/libchromaflash.so \
@@ -223,27 +219,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libwigig_utils.so:system/lib64/libwigig_utils.so \
     vendor/xiaomi/whyred/proprietary/lib64/libwrapnexpcmcalbody.so:system/lib64/libwrapnexpcmcalbody.so \
     vendor/xiaomi/whyred/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/PktRspTest:$(TARGET_COPY_OUT_VENDOR)/bin/PktRspTest \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/StoreKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/StoreKeybox \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/WifiLogger_app:$(TARGET_COPY_OUT_VENDOR)/bin/WifiLogger_app \
     vendor/xiaomi/whyred/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/adswitch:$(TARGET_COPY_OUT_VENDOR)/bin/adswitch \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/climax:$(TARGET_COPY_OUT_VENDOR)/bin/climax \
     vendor/xiaomi/whyred/proprietary/vendor/bin/consumerird:$(TARGET_COPY_OUT_VENDOR)/bin/consumerird \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/e_loop:$(TARGET_COPY_OUT_VENDOR)/bin/e_loop \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/fidoca:$(TARGET_COPY_OUT_VENDOR)/bin/fidoca \
     vendor/xiaomi/whyred/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/xiaomi/whyred/proprietary/vendor/bin/fstman:$(TARGET_COPY_OUT_VENDOR)/bin/fstman \
     vendor/xiaomi/whyred/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/gamed:$(TARGET_COPY_OUT_VENDOR)/bin/gamed \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/xiaomi/whyred/proprietary/vendor/bin/icm:$(TARGET_COPY_OUT_VENDOR)/bin/icm \
     vendor/xiaomi/whyred/proprietary/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
     vendor/xiaomi/whyred/proprietary/vendor/bin/qjpeg-dma-test:$(TARGET_COPY_OUT_VENDOR)/bin/qjpeg-dma-test \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/subsystem_ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/subsystem_ramdump \
     vendor/xiaomi/whyred/proprietary/vendor/bin/tbaseLoader:$(TARGET_COPY_OUT_VENDOR)/bin/tbaseLoader \
     vendor/xiaomi/whyred/proprietary/vendor/bin/ti_audio:$(TARGET_COPY_OUT_VENDOR)/bin/ti_audio \
     vendor/xiaomi/whyred/proprietary/vendor/bin/tidad:$(TARGET_COPY_OUT_VENDOR)/bin/tidad \
@@ -262,7 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
     vendor/xiaomi/whyred/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/drc/drc_cfg_5.1.txt \
     vendor/xiaomi/whyred/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:$(TARGET_COPY_OUT_VENDOR)/etc/drc/drc_cfg_AZ.txt \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/gamedwhitelist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gamedwhitelist.xml \
     vendor/xiaomi/whyred/proprietary/vendor/etc/hbtp/hbtpcfg_adsp_800s_fhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_adsp_800s_fhd.dat \
     vendor/xiaomi/whyred/proprietary/vendor/etc/hbtp/hbtpcfg_sdm630_800s_fhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm630_800s_fhd.dat \
     vendor/xiaomi/whyred/proprietary/vendor/etc/hbtp/hbtpcfg_sdm660_800h_qhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm660_800h_qhd.dat \
@@ -622,7 +604,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.esepowermanager@1.0.so:system/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:system/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so:system/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so:system/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so \
@@ -729,16 +710,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hbtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hbtp_daemon \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/hw/android.hardware.cas@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.0-service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/android.hardware.ir@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.ir@1.0-service \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
@@ -843,10 +820,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/whyred/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/whyred/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service.rc \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/init/android.hardware.cas@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.0-service.rc \
     vendor/xiaomi/whyred/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/xiaomi/whyred/proprietary/vendor/etc/init/android.hardware.ir@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.ir@1.0-service.rc \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/xiaomi/whyred/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/whyred/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/whyred/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
@@ -985,9 +960,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_preview.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_5M.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_5M_hht.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_downscale.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_hht.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_snapshot_upscale.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_ofilm_global_i_cpp_video_default.so \
@@ -1019,9 +992,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_preview.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_5M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_5M.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_5M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_5M_hht.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_downscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_downscale.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_hht.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_upscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_snapshot_upscale.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video_default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx376_sunny_global_ii_cpp_video_default.so \
@@ -1058,7 +1029,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_liveshot.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_preview.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_snapshot.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_snapshot_hht.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_video.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_cpp_video_weixin.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libchromatix_whyred_imx486_ofilm_global_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_whyred_imx486_ofilm_global_i_default_preview_3a.so \
@@ -1468,7 +1438,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libmmcamera_irs1645.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_irs1645.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libmmcamera_isp_abf48.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf48.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
@@ -1633,7 +1602,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0_vendor.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
