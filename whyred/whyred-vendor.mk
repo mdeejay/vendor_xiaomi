@@ -941,24 +941,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libMiCameraHal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiCameraHal.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libMiWatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiWatermark.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxAacEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacEnc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDecSw.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrDec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxAmrEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrEnc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxCore.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxDsdDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxDsdDec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxEvrcEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcEnc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxG711Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Enc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxQcelp13Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Enc.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVdec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVenc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
@@ -1743,23 +1736,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxAacEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacEnc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDecSw.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrDec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxAmrEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrEnc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDecSw.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxCore.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcDec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxEvrcEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcEnc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxG711Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Enc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Dec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxQcelp13Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Enc.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdec.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVenc.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
