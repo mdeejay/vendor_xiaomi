@@ -27,102 +27,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/whyred/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/xiaomi/whyred/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
-    vendor/xiaomi/whyred/proprietary/lib/libFidoCryptoJNI.so:system/lib/libFidoCryptoJNI.so \
-    vendor/xiaomi/whyred/proprietary/lib/libFidoCrypto_system.so:system/lib/libFidoCrypto_system.so \
-    vendor/xiaomi/whyred/proprietary/lib/libOpenCL_system.so:system/lib/libOpenCL_system.so \
-    vendor/xiaomi/whyred/proprietary/lib/libSeemplog.so:system/lib/libSeemplog.so \
-    vendor/xiaomi/whyred/proprietary/lib/libSonyIMX376C3RmscLibrary.so:system/lib/libSonyIMX376C3RmscLibrary.so \
-    vendor/xiaomi/whyred/proprietary/lib/libSonyIMX376KRmscLibrary.so:system/lib/libSonyIMX376KRmscLibrary.so \
-    vendor/xiaomi/whyred/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/xiaomi/whyred/proprietary/lib/libantradio.so:system/lib/libantradio.so \
-    vendor/xiaomi/whyred/proprietary/lib/libbt-logClient.so:system/lib/libbt-logClient.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcdsprpc.so:system/lib/libcdsprpc.so \
-    vendor/xiaomi/whyred/proprietary/lib/libcert_parse.so:system/lib/libcert_parse.so \
-    vendor/xiaomi/whyred/proprietary/lib/libchromaflash.so:system/lib/libchromaflash.so \
-    vendor/xiaomi/whyred/proprietary/lib/libexmedia.so:system/lib/libexmedia.so \
-    vendor/xiaomi/whyred/proprietary/lib/libfastcvadsp_stub.so:system/lib/libfastcvadsp_stub.so \
-    vendor/xiaomi/whyred/proprietary/lib/libfastcvopt.so:system/lib/libfastcvopt.so \
-    vendor/xiaomi/whyred/proprietary/lib/libfb.so:system/lib/libfb.so \
-    vendor/xiaomi/whyred/proprietary/lib/libfdpp.so:system/lib/libfdpp.so \
-    vendor/xiaomi/whyred/proprietary/lib/libfdpp_jni.so:system/lib/libfdpp_jni.so \
     vendor/xiaomi/whyred/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/xiaomi/whyred/proprietary/lib/libgifimage.so:system/lib/libgifimage.so \
-    vendor/xiaomi/whyred/proprietary/lib/libhazebuster.so:system/lib/libhazebuster.so \
-    vendor/xiaomi/whyred/proprietary/lib/libhttpserver.so:system/lib/libhttpserver.so \
-    vendor/xiaomi/whyred/proprietary/lib/libimagepipeline.so:system/lib/libimagepipeline.so \
-    vendor/xiaomi/whyred/proprietary/lib/libj2v8.so:system/lib/libj2v8.so \
-    vendor/xiaomi/whyred/proprietary/lib/liblistenjni.so:system/lib/liblistenjni.so \
-    vendor/xiaomi/whyred/proprietary/lib/liblistensoundmodel2.so:system/lib/liblistensoundmodel2.so \
-    vendor/xiaomi/whyred/proprietary/lib/liblogwrap.so:system/lib/liblogwrap.so \
-    vendor/xiaomi/whyred/proprietary/lib/libmdsprpc.so:system/lib/libmdsprpc.so \
-    vendor/xiaomi/whyred/proprietary/lib/libnvinterface.so:system/lib/libnvinterface.so \
-    vendor/xiaomi/whyred/proprietary/lib/liboctvm.so:system/lib/liboctvm.so \
-    vendor/xiaomi/whyred/proprietary/lib/liboctvm_drv.so:system/lib/liboctvm_drv.so \
-    vendor/xiaomi/whyred/proprietary/lib/liboctvm_runtime.so:system/lib/liboctvm_runtime.so \
-    vendor/xiaomi/whyred/proprietary/lib/liboctvm_utils.so:system/lib/liboctvm_utils.so \
-    vendor/xiaomi/whyred/proprietary/lib/liboptizoom.so:system/lib/liboptizoom.so \
+    vendor/xiaomi/whyred/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
     vendor/xiaomi/whyred/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
-    vendor/xiaomi/whyred/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
-    vendor/xiaomi/whyred/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/xiaomi/whyred/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
-    vendor/xiaomi/whyred/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
-    vendor/xiaomi/whyred/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    vendor/xiaomi/whyred/proprietary/lib/libqvr_adsp_driver_stub.so:system/lib/libqvr_adsp_driver_stub.so \
-    vendor/xiaomi/whyred/proprietary/lib/libqvrservice.so:system/lib/libqvrservice.so \
-    vendor/xiaomi/whyred/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
-    vendor/xiaomi/whyred/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
-    vendor/xiaomi/whyred/proprietary/lib/libsdsprpc.so:system/lib/libsdsprpc.so \
-    vendor/xiaomi/whyred/proprietary/lib/libseemore.so:system/lib/libseemore.so \
-    vendor/xiaomi/whyred/proprietary/lib/libsparse.so:system/lib/libsparse.so \
     vendor/xiaomi/whyred/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
-    vendor/xiaomi/whyred/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
-    vendor/xiaomi/whyred/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/libubifocus.so:system/lib/libubifocus.so \
-    vendor/xiaomi/whyred/proprietary/lib/libvr_amb_engine.so:system/lib/libvr_amb_engine.so \
-    vendor/xiaomi/whyred/proprietary/lib/libvr_object_engine.so:system/lib/libvr_object_engine.so \
-    vendor/xiaomi/whyred/proprietary/lib/libvr_sam_wrapper.so:system/lib/libvr_sam_wrapper.so \
-    vendor/xiaomi/whyred/proprietary/lib/libvraudio.so:system/lib/libvraudio.so \
-    vendor/xiaomi/whyred/proprietary/lib/libvraudio_client.so:system/lib/libvraudio_client.so \
-    vendor/xiaomi/whyred/proprietary/lib/libwapi_cert.so:system/lib/libwapi_cert.so \
-    vendor/xiaomi/whyred/proprietary/lib/libwificond_ipc.so:system/lib/libwificond_ipc.so \
-    vendor/xiaomi/whyred/proprietary/lib/libwigig_flashaccess.so:system/lib/libwigig_flashaccess.so \
-    vendor/xiaomi/whyred/proprietary/lib/libwigig_pciaccess.so:system/lib/libwigig_pciaccess.so \
-    vendor/xiaomi/whyred/proprietary/lib/libwigig_utils.so:system/lib/libwigig_utils.so \
-    vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
-    vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libfastcvadsp_skel.so:system/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libhvxMathVIO.so:system/lib/rfsa/adsp/libhvxMathVIO.so \
-    vendor/xiaomi/whyred/proprietary/lib/rfsa/adsp/libqvr_adsp_driver_skel.so:system/lib/rfsa/adsp/libqvr_adsp_driver_skel.so \
     vendor/xiaomi/whyred/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libFidoCryptoJNI.so:system/lib64/libFidoCryptoJNI.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libFidoCrypto_system.so:system/lib64/libFidoCrypto_system.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libOpenCL_system.so:system/lib64/libOpenCL_system.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libQseeR2fServiceJNI.so:system/lib64/libQseeR2fServiceJNI.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libSNPE.so:system/lib64/libSNPE.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libSeemplog.so:system/lib64/libSeemplog.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libadsprpc.so:system/lib64/libadsprpc.so \
     vendor/xiaomi/whyred/proprietary/lib64/libblurbuster.so:system/lib64/libblurbuster.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libbt-logClient.so:system/lib64/libbt-logClient.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libcdsprpc.so:system/lib64/libcdsprpc.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libcert_parse.so:system/lib64/libcert_parse.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libchromaflash.so:system/lib64/libchromaflash.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libclearsight.so:system/lib64/libclearsight.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libdict-parser.so:system/lib64/libdict-parser.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libexmedia.so:system/lib64/libexmedia.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libfacial_action.so:system/lib64/libfacial_action.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libfastcvadsp_stub.so:system/lib64/libfastcvadsp_stub.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libfastcvopt.so:system/lib64/libfastcvopt.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libfdpp.so:system/lib64/libfdpp.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libfdpp_jni.so:system/lib64/libfdpp_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libgnustl_shared.so:system/lib64/libgnustl_shared.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libhazebuster.so:system/lib64/libhazebuster.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libhttpserver.so:system/lib64/libhttpserver.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libinpaint.so:system/lib64/libinpaint.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libinpaint_jni.so:system/lib64/libinpaint_jni.so \
+    vendor/xiaomi/whyred/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
@@ -141,57 +54,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libklobugreport_jni.so:system/lib64/libklobugreport_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liblistenjni.so:system/lib64/liblistenjni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liblistensoundmodel2.so:system/lib64/liblistensoundmodel2.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmdsprpc.so:system/lib64/libmdsprpc.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmediaplayerservice.so:system/lib64/libmediaplayerservice.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libnexcralbody_mc_jb.so:system/lib64/libnexcralbody_mc_jb.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libnexeditorsdk.so:system/lib64/libnexeditorsdk.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libnexralbody_audio.so:system/lib64/libnexralbody_audio.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libnvinterface.so:system/lib64/libnvinterface.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liboctvm.so:system/lib64/liboctvm.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liboctvm_drv.so:system/lib64/liboctvm_drv.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liboctvm_runtime.so:system/lib64/liboctvm_runtime.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liboctvm_utils.so:system/lib64/liboctvm_utils.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liboptizoom.so:system/lib64/liboptizoom.so \
     vendor/xiaomi/whyred/proprietary/lib64/libqcomfm_jni.so:system/lib64/libqcomfm_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libroam2free_softsim.so:system/lib64/libroam2free_softsim.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libsdsprpc.so:system/lib64/libsdsprpc.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libseemore.so:system/lib64/libseemore.so \
     vendor/xiaomi/whyred/proprietary/lib64/libseestraight.so:system/lib64/libseestraight.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libshellservice.so:system/lib64/libshellservice.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libsim-activate-root-checker.so:system/lib64/libsim-activate-root-checker.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libskbcli.so:system/lib64/libskbcli.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libsnpe_loader.so:system/lib64/libsnpe_loader.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libtcp.so:system/lib64/libtcp.so \
     vendor/xiaomi/whyred/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/xiaomi/whyred/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libubifocus.so:system/lib64/libubifocus.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liburldetectorsys.so:system/lib64/liburldetectorsys.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libvis.so:system/lib64/libvis.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libvr_amb_engine.so:system/lib64/libvr_amb_engine.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libvr_object_engine.so:system/lib64/libvr_object_engine.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libvr_sam_wrapper.so:system/lib64/libvr_sam_wrapper.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libvraudio.so:system/lib64/libvraudio.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libvraudio_client.so:system/lib64/libvraudio_client.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libwapi_cert.so:system/lib64/libwapi_cert.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libwificond_ipc.so:system/lib64/libwificond_ipc.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libwifikeystorehalext.so:system/lib64/libwifikeystorehalext.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libwigig_flashaccess.so:system/lib64/libwigig_flashaccess.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libwigig_pciaccess.so:system/lib64/libwigig_pciaccess.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libwigig_utils.so:system/lib64/libwigig_utils.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libwrapnexpcmcalbody.so:system/lib64/libwrapnexpcmcalbody.so \
     vendor/xiaomi/whyred/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/consumerird:$(TARGET_COPY_OUT_VENDOR)/bin/consumerird \
     vendor/xiaomi/whyred/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
@@ -213,12 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
     vendor/xiaomi/whyred/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/drc/drc_cfg_5.1.txt \
     vendor/xiaomi/whyred/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:$(TARGET_COPY_OUT_VENDOR)/etc/drc/drc_cfg_AZ.txt \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/qvr/ov7251_640x480_cam_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/ov7251_640x480_cam_config.xml \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/qvr/ov9282_stereo_1280x400_cam_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/ov9282_stereo_1280x400_cam_config.xml \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/qvr/ov9282_stereo_2560x800_cam_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/ov9282_stereo_2560x800_cam_config.xml \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/qvr/qvrservice_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_6dof_config.xml \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/qvr/qvrservice_6dof_config_stereo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_6dof_config_stereo.xml \
-    vendor/xiaomi/whyred/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/xiaomi/whyred/proprietary/vendor/etc/speaker.ftcfg:$(TARGET_COPY_OUT_VENDOR)/etc/speaker.ftcfg \
     vendor/xiaomi/whyred/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
     vendor/xiaomi/whyred/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
@@ -466,93 +327,32 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/whyred/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
-    vendor/xiaomi/whyred/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
-    vendor/xiaomi/whyred/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
-    vendor/xiaomi/whyred/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
-    vendor/xiaomi/whyred/proprietary/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
-    vendor/xiaomi/whyred/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
-    vendor/xiaomi/whyred/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
-    vendor/xiaomi/whyred/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
-    vendor/xiaomi/whyred/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
-    vendor/xiaomi/whyred/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
-    vendor/xiaomi/whyred/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
-    vendor/xiaomi/whyred/proprietary/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
-    vendor/xiaomi/whyred/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
-    vendor/xiaomi/whyred/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
-    vendor/xiaomi/whyred/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/xiaomi/whyred/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
-    vendor/xiaomi/whyred/proprietary/lib/libstagefright_soft_qtiflacdec.so:system/lib/libstagefright_soft_qtiflacdec.so \
-    vendor/xiaomi/whyred/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
-    vendor/xiaomi/whyred/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.limits@1.0.so:system/lib/vendor.qti.hardware.limits@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/xiaomi/whyred/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/whyred/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/whyred/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/xiaomi/whyred/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/whyred/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libCameraEffectJNI.so:system/lib64/libCameraEffectJNI.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libExtendedExtractor.so:system/lib64/libExtendedExtractor.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libFaceDetectCA.so:system/lib64/libFaceDetectCA.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
     vendor/xiaomi/whyred/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libdualcameraddm.so:system/lib64/libdualcameraddm.so \
     vendor/xiaomi/whyred/proprietary/lib64/libfiltergenerator.so:system/lib64/libfiltergenerator.so \
     vendor/xiaomi/whyred/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
     vendor/xiaomi/whyred/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libstagefright_httplive.so:system/lib64/libstagefright_httplive.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libstagefright_soft_aacdec.so:system/lib64/libstagefright_soft_aacdec.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libstagefright_soft_aacenc.so:system/lib64/libstagefright_soft_aacenc.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libstagefright_soft_qtiflacdec.so:system/lib64/libstagefright_soft_qtiflacdec.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libstagefright_wfd.so:system/lib64/libstagefright_wfd.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libthermalcallback.so:system/lib64/libthermalcallback.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libthermalservice.so:system/lib64/libthermalservice.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
     vendor/xiaomi/whyred/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.limits@1.0.so:system/lib64/vendor.qti.hardware.limits@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
-    vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:system/lib64/vendor.qti.hardware.wifi.keystore@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/whyred/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/xiaomi/whyred/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
@@ -1350,10 +1150,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/mibokeh_636_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_636_opencl.bin \
