@@ -141,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libfdpp.so:system/lib64/libfdpp.so \
     vendor/xiaomi/whyred/proprietary/lib64/libfdpp_jni.so:system/lib64/libfdpp_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libfmp_snpe_cv.so:system/lib64/libfmp_snpe_cv.so \
     vendor/xiaomi/whyred/proprietary/lib64/libgnustl_shared.so:system/lib64/libgnustl_shared.so \
     vendor/xiaomi/whyred/proprietary/lib64/libhazebuster.so:system/lib64/libhazebuster.so \
     vendor/xiaomi/whyred/proprietary/lib64/libhttpserver.so:system/lib64/libhttpserver.so \
@@ -170,7 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/liblistensoundmodel2.so:system/lib64/liblistensoundmodel2.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmdsprpc.so:system/lib64/libmdsprpc.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmediaplayerservice.so:system/lib64/libmediaplayerservice.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmegbucket.so:system/lib64/libmegbucket.so \
     vendor/xiaomi/whyred/proprietary/lib64/libnexcralbody_mc_jb.so:system/lib64/libnexcralbody_mc_jb.so \
     vendor/xiaomi/whyred/proprietary/lib64/libnexeditorsdk.so:system/lib64/libnexeditorsdk.so \
     vendor/xiaomi/whyred/proprietary/lib64/libnexralbody_audio.so:system/lib64/libnexralbody_audio.so \
@@ -203,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
     vendor/xiaomi/whyred/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libubifocus.so:system/lib64/libubifocus.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libunlockmegcv.so:system/lib64/libunlockmegcv.so \
     vendor/xiaomi/whyred/proprietary/lib64/liburldetectorsys.so:system/lib64/liburldetectorsys.so \
     vendor/xiaomi/whyred/proprietary/lib64/libvis.so:system/lib64/libvis.so \
     vendor/xiaomi/whyred/proprietary/lib64/libvr_amb_engine.so:system/lib64/libvr_amb_engine.so \
@@ -564,8 +561,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/whyred/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/whyred/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/xiaomi/whyred/proprietary/lib/libmmcamera_faceproc2.so:system/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/whyred/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/whyred/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/xiaomi/whyred/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
