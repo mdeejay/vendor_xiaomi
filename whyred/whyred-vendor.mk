@@ -219,11 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/consumerird:$(TARGET_COPY_OUT_VENDOR)/bin/consumerird \
     vendor/xiaomi/whyred/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/fstman:$(TARGET_COPY_OUT_VENDOR)/bin/fstman \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/icm:$(TARGET_COPY_OUT_VENDOR)/bin/icm \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/qjpeg-dma-test:$(TARGET_COPY_OUT_VENDOR)/bin/qjpeg-dma-test \
     vendor/xiaomi/whyred/proprietary/vendor/bin/tbaseLoader:$(TARGET_COPY_OUT_VENDOR)/bin/tbaseLoader \
     vendor/xiaomi/whyred/proprietary/vendor/bin/ti_audio:$(TARGET_COPY_OUT_VENDOR)/bin/ti_audio \
     vendor/xiaomi/whyred/proprietary/vendor/bin/tidad:$(TARGET_COPY_OUT_VENDOR)/bin/tidad \
@@ -496,19 +491,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     CABLService \
-    SecProtect \
-    QPerformance \
     audiosphere
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/whyred/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/xiaomi/whyred/proprietary/bin/mtpd:system/bin/mtpd \
-    vendor/xiaomi/whyred/proprietary/bin/seempd:system/bin/seempd \
     vendor/xiaomi/whyred/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/xiaomi/whyred/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/whyred/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/whyred/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/whyred/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/xiaomi/whyred/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/whyred/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/xiaomi/whyred/proprietary/etc/permissions/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
     vendor/xiaomi/whyred/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -639,8 +628,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/xiaomi/whyred/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmmcamera_faceproc.so:system/lib64/libmmcamera_faceproc.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libmmcamera_faceproc2.so:system/lib64/libmmcamera_faceproc2.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmmparser.so:system/lib64/libmmparser.so \
     vendor/xiaomi/whyred/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
@@ -699,7 +686,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:system/lib64/vendor.qti.hardware.wifi.keystore@1.0.so \
     vendor/xiaomi/whyred/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/whyred/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/xiaomi/whyred/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/xiaomi/whyred/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
@@ -726,25 +712,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/xiaomi/whyred/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/xiaomi/whyred/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/xiaomi/whyred/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/mtd:$(TARGET_COPY_OUT_VENDOR)/bin/mtd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
     vendor/xiaomi/whyred/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/xiaomi/whyred/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/xiaomi/whyred/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/power_off_alarm:$(TARGET_COPY_OUT_VENDOR)/bin/power_off_alarm \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/qdmastatsd:$(TARGET_COPY_OUT_VENDOR)/bin/qdmastatsd \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/xiaomi/whyred/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/xiaomi/whyred/proprietary/vendor/bin/qvop-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qvop-daemon \
     vendor/xiaomi/whyred/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/seemp_healthd:$(TARGET_COPY_OUT_VENDOR)/bin/seemp_healthd \
     vendor/xiaomi/whyred/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/xiaomi/whyred/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
-    vendor/xiaomi/whyred/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/xiaomi/whyred/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/xiaomi/whyred/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/xiaomi/whyred/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
@@ -1917,9 +1896,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     FingerprintExtensionService \
-    PowerOffAlarm \
-    QFingerprintService \
-    SVIService \
     TimeService \
     colorservice \
     WfdCommon \
@@ -1927,7 +1903,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice@1.0-java \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
-    vendor.qti.hardware.fingerprint-V1.0-java \
     com.fingerprints.extension \
     qti-vzw-ims-internal \
     vendor.qti.hardware.alarm-V1.0-java \

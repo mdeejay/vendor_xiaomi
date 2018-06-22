@@ -31,28 +31,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SecProtect
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/app/SecProtect/SecProtect.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := QPerformance
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/framework/QPerformance.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := audiosphere
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/framework/audiosphere.jar
@@ -260,42 +238,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := PowerOffAlarm
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/app/PowerOffAlarm/PowerOffAlarm.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := QFingerprintService
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/app/QFingerprintService/QFingerprintService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := SVIService
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/app/SVIService/SVIService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
@@ -363,16 +305,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.fingerprint-V1.0-java
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
