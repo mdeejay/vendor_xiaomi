@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_hazebuster.so:system/lib64/libjni_hazebuster.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libjni_load_serinum.so:system/lib64/libjni_load_serinum.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_makeupV2.so:system/lib64/libjni_makeupV2.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_optizoom.so:system/lib64/libjni_optizoom.so \
     vendor/xiaomi/whyred/proprietary/lib64/libjni_seestraight.so:system/lib64/libjni_seestraight.so \
