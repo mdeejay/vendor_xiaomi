@@ -519,7 +519,9 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
+    datastatusnotification \
     ims \
+    uceShimService \
     CNEService \
     com.qualcomm.location \
     QtiTelephonyService \
